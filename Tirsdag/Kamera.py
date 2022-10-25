@@ -5,7 +5,7 @@ cap = cv2.VideoCapture(0)
 while (True):
     ret, frame = cap.read()
 
-    cv2.imshow('frame', frame)
+    cv2.imshow("press 'Q' to quit", frame)
     if cv2.waitKey(20) & 0xFF == ord('q'):
         break
 

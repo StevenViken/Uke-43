@@ -56,6 +56,5 @@ while running:
     if event.type == pg.QUIT:
       running = False
     if event.type == pg.KEYDOWN:
-      if event.key == pg.K_RIGHT:
-        shape()
+      shape()
 
